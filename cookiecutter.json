@@ -1,4 +1,4 @@
 {
 "project_name": "default_name"
-"project_slug: "{{ cookiecutter.project_name.lower()|replace(' ', '_')|'-', '_')|trim()}}"
+"project_slug: "{{ cookiecutter.project_name.lower()|replace(' ', '_')|'-', '_')|replace('.', '_')|trim() }}"
 }

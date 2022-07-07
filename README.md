@@ -41,10 +41,11 @@ TODO
 1. Instale o pacote Poetry seguinte as instruções em [daqui](https://github.com/python-poetry/poetry).
 
 2. Configure o Ambiente:
+      * Ative o ambiente virtual
 
-       make activate
-
-       make setup
+            make activate
+      * Inicializar o repositório git, baixar dependências e instale plugins de 
+      make setup
 
 ### Como instalar novos pacotes ao projeto
 

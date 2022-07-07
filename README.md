@@ -7,9 +7,9 @@ Nós criamos um modelo de estrutura de repositórios baseado no coockiecutter pa
 ## Ferramentas usadas neste projeto
 
 * [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Gerenciamento de Dependências.
-* [Hydra](https://hydra.cc/): Gerenciamento de Arquivos de Configuração.
-* [pre-commit plugins](https://pre-commit.com/): Automatização da formatação e revisão de código.
-* [DVC](https://dvc.org/): Controle de Versionamento de Dados. 
+* [Hydra](https://hydra.cc/): Gerenciamento de Arquivos de Configuração - [artigo](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
+* [pre-commit plugins](https://pre-commit.com/): Automatização da formatação e revisão de código - [artigo](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5?sk=2388804fb174d667ee5b680be22b8b1f)
+* [DVC](https://dvc.org/): Controle de Versionamento de Dados - [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
 * [pdoc](https://github.com/pdoc3/pdoc): Criação automática de uma documentação de API.
 
 ## Requisitos

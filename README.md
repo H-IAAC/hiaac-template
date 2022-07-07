@@ -12,7 +12,7 @@ Nós criamos um modelo de estrutura de repositórios baseado no coockiecutter pa
 * [DVC](https://dvc.org/): Controle de Versionamento de Dados - [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
 * [pdoc](https://github.com/pdoc3/pdoc): Criação automática de uma documentação de API.
 
-## Requisitos
+## Requisitos para baixar o modelo em seu computador
 
 * Python >= 3.5
 * Pacote Python Cookiecutter >= 1.4.0:
@@ -26,15 +26,35 @@ Nós criamos um modelo de estrutura de repositórios baseado no coockiecutter pa
 
 Pronto, agora você será capaz de reproduzir o modelo e criar o seu próprio modelo para projetos e artigos.
 
-## Como começar um novo projeto usando o modelo do HIAAC
+## Como baixar o modelo do HIAAC
 
 Depois que os requisitos acima estão satisfeitos, basta ir em sua linha de comando e digitar a instrução abaixo. Não existe a necessidade de criar uma pasta, o cookiecutter já vai fazer isso por você.
 
-`cookiecutter https://github.com/sildolfogomes/hiaac-template.git`
+      cookiecutter https://github.com/sildolfogomes/hiaac-template.git
 
 ### Exemplo de saída
 
 TODO
+
+## Como usar as ferramentas instaladas no modelo
+
+1. Instale o pacote Poetry seguinte as instruções em [daqui](https://github.com/python-poetry/poetry).
+
+2. Configure o Ambiente:
+
+       make activate
+
+       make setup
+
+### Como instalar novos pacotes ao projeto
+
+Para instalar novos pacotes PyPI, execute:
+
+      poetry add <nome-do-pacote>
+
+### Como rodar a pipeline inteira
+
+      dvc repo
 
 ## Estrutura do Diretório
 

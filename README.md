@@ -38,7 +38,7 @@ TODO
 
 ## Como usar as ferramentas instaladas no modelo
 
-1. Instale o pacote Poetry seguinte as instruções em [daqui](https://github.com/python-poetry/poetry).
+1. Instale o pacote Poetry seguindo as instruções em [daqui](https://github.com/python-poetry/poetry).
 
 2. Configure o Ambiente:
       * Ative o ambiente virtual
@@ -61,13 +61,13 @@ Para instalar novos pacotes PyPI, execute:
 
       .
       ├── LICENSE
-      ├── Makefile           <- Makefile with commands like `make data` or `make train`
-      ├── README.md          <- The top-level README for developers using this project.
+      ├── Makefile            <- Makefile with commands like `make data` or `make train`
+      ├── README.md           <- The top-level README for developers using this project.
       ├── data
-      │   ├── external       <- Data from third party sources.
-      │   ├── interim        <- Intermediate data that has been transformed.
-      │   ├── processed      <- The final, canonical data sets for modeling.
-      │   └── raw            <- The original, immutable data dump.
+      │   ├── 0_external      <- Data from third party sources.
+      │   ├── 1_interim       <- Intermediate data that has been transformed.
+      │   ├── 2_processed     <- The final, canonical data sets for modeling.
+      │   └── 0_raw           <- The original, immutable data dump.
       │
       ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
       │

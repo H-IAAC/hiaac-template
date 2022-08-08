@@ -16,10 +16,14 @@ interrogate = "^1.5.0"
 Hydra = "^2.5"
 dvc = "^2.17.0"
 nbstripout = "^0.6.0"
-pdoc = "^12.0.2"
+pylint = "^2.14.5"
+pdoc3 = "^0.10.0"
+wandb = "^0.13.0"
+mlflow = "^1.27.0"
 
 [tool.poetry.dev-dependencies]
 matplotlib = "^3.5.2"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

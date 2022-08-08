@@ -23,7 +23,7 @@ test:
 
 docs_view:
 	@echo View API documentation... 
-	pdoc src --http localhost:8080
+	pdoc --http localhost:8080 src
 
 docs_save:
 	@echo Save documentation to docs... 
@@ -34,3 +34,6 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 	rm -rf .pytest_cache
+
+exit:
+	exit
